@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+}
+
+table tr{
+    display:flex;
+}
+
+td{
+    width:100px;
+    height: 100px;
+}
+
+/* Board Borders */
+table tr:not(:last-child){
+    border-bottom: 2px solid black;
+}
+
+table tr td:not(:last-child){
+    border-right: 2px solid black;
+}
